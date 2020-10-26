@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="Quizion"
+        android:text="Quiztion"
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold" />
@@ -53,7 +53,7 @@
                 android:text="PLAY"
                 android:textSize="20sp"
                 android:textColor="@color/white"
-                android:textStyle="BO"
+                android:textStyle="bold"
                 >
 
             </Button>
