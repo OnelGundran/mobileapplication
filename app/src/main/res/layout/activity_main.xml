@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="Quiztion"
+        android:text="@string/quiztion"
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold" />
@@ -30,7 +30,7 @@
         app:cardElevation="5dp"
         >
 
-        <androidx.appcompat.widget.LinearLayoutCompat
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -39,18 +39,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Welcome"
+                android:text="@string/welcome"
                 android:textColor="#363A43"
                 android:textStyle="bold"
                 android:textSize="30sp"
                 />
+
             <Button
                 android:id="@+id/btn_play"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@color/design_default_color_primary"
-                android:text="PLAY"
+                android:text="@string/play"
                 android:textSize="20sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
@@ -58,12 +59,7 @@
 
             </Button>
 
-
-
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
-
-
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
