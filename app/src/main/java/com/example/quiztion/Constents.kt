@@ -9,7 +9,7 @@ object Constents{
                 R.drawable.uc,
         optionOne = "June19",
         optionTwo = "64th",
-        optionThree = "Nov3",
+        optionThree = "Novmeber 3",
         optionFour = "Today",
         correctAnswer = 1
 
