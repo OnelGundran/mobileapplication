@@ -1,6 +1,6 @@
 package com.example.quiztion
 
-class Questions (
+data  class Questions (
 
         val id:Int,
         val question: String,
